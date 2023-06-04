@@ -19,12 +19,16 @@
     menuCloseItem.addEventListener('click', () => {
         menu.classList.remove('header__nav_active');
     });
+    document.querySelector('.header__list').addEventListener('click', (e) => {
+        if (!e.target.classList.contains('header__link')) return;
+        if (menu.classList.contains('header__nav_active')) {
+            menu.classList.remove('header__nav_active')
+        s}
+    })
+
 }());
 
-
-
-// Scroll to anchors
-
+ы
 
 (function () {
 

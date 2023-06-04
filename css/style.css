@@ -749,7 +749,7 @@ img {
     overflow: hidden;
 }
 
-.inspired__card::after{
+/* .inspired__card::after{
     display: block;
     content: '';
     width: 100%;
@@ -759,10 +759,11 @@ img {
     top: 0;
     left: 0;
     z-index: 2;
-}
+} */
 
 .inspired__card-pic:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .inspired__card-title{
