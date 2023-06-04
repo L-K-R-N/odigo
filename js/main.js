@@ -23,12 +23,11 @@
         if (!e.target.classList.contains('header__link')) return;
         if (menu.classList.contains('header__nav_active')) {
             menu.classList.remove('header__nav_active')
-        s}
+        }
     })
 
 }());
 
-ы
 
 (function () {
 
